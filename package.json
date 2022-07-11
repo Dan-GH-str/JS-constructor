@@ -1,0 +1,19 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "javascript app",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Dan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-webmanifest": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}
