@@ -4,7 +4,6 @@
   "homepage": "./JS-constructor/src/index.html",
   "description": "javascript app",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "serve": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --no-source-maps"
