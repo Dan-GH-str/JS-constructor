@@ -1,5 +1,5 @@
-import image from './images/img.jpg'        // специально именно так из-за парселя
-import {TitleBlock, ParagraphBlock, ColumnsBlock, ImageBlock, TextBlock} from './classes/block'
+// import image from './images/img.jpg'        // специально именно так из-за парселя
+import {TitleBlock, ParagraphBlock, ColumnsBlock, ImageBlock, TextBlock} from './classes/block.mjs'
 
 export const model = [
     new TitleBlock( 'Hello World from JS!', {
@@ -36,7 +36,7 @@ export const model = [
             margin: '1px' 
         }
     }),
-    new ImageBlock ( image, {
+    new ImageBlock ( './images/img.jpg', {
         alt: 'Здесь картинка',
         styles: {
             width: '1000px',

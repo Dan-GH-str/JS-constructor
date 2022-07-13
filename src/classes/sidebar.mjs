@@ -1,4 +1,4 @@
-import { sideBlock } from "../utils"
+import { sideBlock } from "../utils.mjs"
 
 
 export class SideBar {

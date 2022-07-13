@@ -1,4 +1,4 @@
-import {row, col, toCSS} from '../utils'
+import {row, col, toCSS} from '../utils.mjs'
 
 class Block {
     constructor(value, options) {

@@ -39,6 +39,11 @@ html, body {
         font-size: 30px!important;
         line-height: 45px!important;
     }
+
+    img {
+        width: 200px!important;
+        height: 100px!important;
+    }
 }
 
 @media(max-width: 320px) {

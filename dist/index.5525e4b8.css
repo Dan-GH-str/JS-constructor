@@ -1,0 +1,53 @@
+html, body {
+  width: 99%;
+}
+
+#app {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  right: 0;
+}
+
+.sidebar {
+  width: 250px;
+  z-index: 100;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: inset -1px 0 #0000001a;
+}
+
+.myMargins {
+  margin: 10px;
+}
+
+@media (max-width: 425px) {
+  .sidebar {
+    width: 150px;
+  }
+
+  .content {
+    left: 150px;
+  }
+
+  .paragraph {
+    font-size: 30px !important;
+    line-height: 45px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .paragraph {
+    line-height: 37px !important;
+  }
+}
+
+/*# sourceMappingURL=index.5525e4b8.css.map */

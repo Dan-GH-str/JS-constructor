@@ -1,7 +1,6 @@
 {
   "name": "js-constructor",
   "version": "1.0.0",
-  "homepage": "./JS-constructor/src/index.html",
   "description": "javascript app",
   "main": "src/index.js",
   "scripts": {
